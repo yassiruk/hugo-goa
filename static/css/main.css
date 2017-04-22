@@ -255,3 +255,41 @@ header.title
         margin-top: 30px;
     }
 }
+
+ul.pagination {
+    padding: 3px;
+    margin: 3px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    text-align:center;
+}
+
+ul.pagination a {
+    border: 1px solid #dedfde;
+    margin-right:3px;
+    padding:2px 6px;
+
+    background-position:bottom;
+    text-decoration: none;
+
+    color: #99210B;
+}
+ul.pagination a:hover, ul.pagination a:active {
+    border: 1px solid #000;
+    background-image:none;
+    background-color:#777777;
+    color: #fff;
+}
+ul.pagination span.current {
+    margin-right:3px;
+    padding:2px 6px;
+    
+    font-weight: bold;
+    color: #99210B;
+}
+ul.pagination span.disabled {
+    margin-right:3px;
+    padding:2px 6px;
+
+    color: #adaaad;
+}
